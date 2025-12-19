@@ -16,6 +16,8 @@ const Hero = () => {
                         backSpeed={140} loop />
                 </div>
                 <p className='md:text-2xl text-xl font-bold text-gray-500'>Monitor Your data analytics to increase renvnue for BTB, BTC, & SASS platform.</p>
+
+                <button className='bg-[#00df9a] w-[200px] rounded-md my-6 mx-auto py-3 text-black'>Get Started</button>
             </div>
         </div>
     )
