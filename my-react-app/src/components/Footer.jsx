@@ -10,11 +10,11 @@ import {
 
 function Footer() {
     return (
-        <div className='max-w-full mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
+        <div className='footer-container'>
             <div>
-                <h1 className="w-full text-3xl font-bold text-[#00df98]">REACT.</h1>
-                <p className='py-4'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, fuga harum! Saepe, ab quis quam omnis repudiandae quidem neque nobis cupiditate facilis consequatur, architecto incidunt nostrum totam rerum ullam quod.</p>
-                <div className='flex justify-between md:w-[75%] my-6'>
+                <h1 className="footer-logo">REACT.</h1>
+                <p className='footer-desc'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, fuga harum! Saepe, ab quis quam omnis repudiandae quidem neque nobis cupiditate facilis consequatur, architecto incidunt nostrum totam rerum ullam quod.</p>
+                <div className='footer-social'>
                     <FaFacebook size={30} />
                     <FaInstagram size={30} />
                     <FaTwitter size={30} />
@@ -23,44 +23,44 @@ function Footer() {
                 </div>
             </div>
 
-            <div className='lg:col-span-2 flex justify-between mt-6'>
+            <div className='footer-links-container'>
                 <div>
-                    <h6 className='font-medium text-gray-400'>Solutions</h6>
-                    <ul>
-                        <li className='py-4 text-sm'>Analytics</li>
-                        <li className='py-4 text-sm'>Marketing</li>
-                        <li className='py-4 text-sm'>Commerice</li>
-                        <li className='py-4 text-sm'>Insights</li>
+                    <h6 className='footer-section-title'>Solutions</h6>
+                    <ul className='footer-list'>
+                        <li className='footer-item'>Analytics</li>
+                        <li className='footer-item'>Marketing</li>
+                        <li className='footer-item'>Commerice</li>
+                        <li className='footer-item'>Insights</li>
                     </ul>
                 </div>
 
                 <div>
-                    <h6 className='font-medium text-gray-400'>Support</h6>
-                    <ul>
-                        <li className='py-4 text-sm'>Pricing</li>
-                        <li className='py-4 text-sm'>Documentation</li>
-                        <li className='py-4 text-sm'>Guides</li>
-                        <li className='py-4 text-sm'>API Status</li>
+                    <h6 className='footer-section-title'>Support</h6>
+                    <ul className='footer-list'>
+                        <li className='footer-item'>Pricing</li>
+                        <li className='footer-item'>Documentation</li>
+                        <li className='footer-item'>Guides</li>
+                        <li className='footer-item'>API Status</li>
                     </ul>
                 </div>
 
                 <div>
-                    <h6 className='font-medium text-gray-400'>Company</h6>
-                    <ul>
-                        <li className='py-4 text-sm'>About</li>
-                        <li className='py-4 text-sm'>Blog</li>
-                        <li className='py-4 text-sm'>Jobs</li>
-                        <li className='py-4 text-sm'>Press</li>
-                        <li className='py-4 text-sm'>Careers</li>
+                    <h6 className='footer-section-title'>Company</h6>
+                    <ul className='footer-list'>
+                        <li className='footer-item'>About</li>
+                        <li className='footer-item'>Blog</li>
+                        <li className='footer-item'>Jobs</li>
+                        <li className='footer-item'>Press</li>
+                        <li className='footer-item'>Careers</li>
                     </ul>
                 </div>
 
                 <div>
-                    <h6 className='font-medium text-gray-400'>Legal</h6>
-                    <ul>
-                        <li className='py-4 text-sm'>Claim</li>
-                        <li className='py-4 text-sm'>Policies</li>
-                        <li className='py-4 text-sm'>Terms</li>
+                    <h6 className='footer-section-title'>Legal</h6>
+                    <ul className='footer-list'>
+                        <li className='footer-item'>Claim</li>
+                        <li className='footer-item'>Policies</li>
+                        <li className='footer-item'>Terms</li>
                     </ul>
                 </div>
             </div>
